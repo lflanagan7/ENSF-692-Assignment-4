@@ -171,7 +171,7 @@ def main():
             # If user does not enter a breed listed within data, display message to let them know input is invalid. 
             # Handle error so that program will continue asking for inputs until successful entry and data analysis. 
             else:
-                raise KeyError('Dog breed not found in the data. Please try again.')
+                raise KeyError("Dog breed not found in the data. Please try again.")
             
         except KeyError as err:
             print(err)
